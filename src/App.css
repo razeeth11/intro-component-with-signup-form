@@ -1,0 +1,59 @@
+body{
+  font-family:  poppins;
+  background-color: hsl(0, 100%, 71%)   ;
+  background-image: url("./assets/images/bg-intro-desktop.png");
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: 75px auto;
+  max-width: 1200px;
+}
+
+.sign-up-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 25px;
+}
+
+.left-card{
+  max-width: 350px;
+  color: white;
+}
+
+.left-card h1{
+    font-size: 32px;
+}
+
+.sign-up-form{
+  background-color: white;
+  border-radius: 5px;
+}
+
+.right-card h4 {
+  background-color: rgb(80, 33, 155);
+  text-align: center;
+  padding: 10px ;
+  border-radius: 5px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+span{
+  font-weight: 300;
+}
+
+.terms{
+  font-weight: 700;
+  text-transform: capitalize;
+  color: rgba(255, 0, 0, 0.751);
+}
+
+.submit-button:hover{
+     background-color: hsl(154, 58%, 45%) !important;
+}
