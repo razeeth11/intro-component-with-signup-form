@@ -9,14 +9,14 @@ body{
   justify-content: center;
   align-items: center;
   gap: 100px;
-  margin: 75px auto;
+  margin: 50px auto;
   max-width: 1200px;
 }
 
 .sign-up-form{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   padding: 25px;
 }
 
@@ -56,4 +56,20 @@ span{
 
 .submit-button:hover{
      background-color: hsl(154, 58%, 45%) !important;
+}
+
+
+@media screen and (max-width : 840px) {
+  
+  .App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 1200px;
+  }
+
 }
