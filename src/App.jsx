@@ -50,7 +50,7 @@ function App() {
           <TextField
             name="firstName"
             id="outlined-basic"
-            label="First Name"
+            placeholder="First Name"
             variant="outlined"
             onChange={formik.handleChange}
             error={formik.errors.firstName}
@@ -59,7 +59,7 @@ function App() {
           <TextField
             name="lastName"
             id="outlined-basic"
-            label="Last Name"
+            placeholder="Last Name"
             variant="outlined"
             onChange={formik.handleChange}
             error={formik.errors.lastName}
@@ -68,7 +68,7 @@ function App() {
           <TextField
             name="email"
             id="outlined-basic"
-            label="Email Address"
+            placeholder="Email Address"
             variant="outlined"
             onChange={formik.handleChange}
             error={formik.errors.email}
@@ -77,7 +77,7 @@ function App() {
           <TextField
             name="password"
             id="outlined-basic"
-            label="Password"
+            placeholder="Password"
             variant="outlined"
             onChange={formik.handleChange}
             error={formik.errors.password}
